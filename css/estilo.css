@@ -1,0 +1,126 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: Helvetica, Arial, sans-serif;
+	background: #F0F2F5;
+}
+
+#conteudo{
+	display: flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content:center;
+   align-items: center;
+} 
+
+.item{
+ width: 500px;
+ height: 550px;
+ margin: 10px;
+}
+
+.ordem1{
+	/*background: url(https://static.xx.fbcdn.net/rsrc.php/y8/r/dF5SId3UHWd.svg) no-repeat  ;*/
+	height: 300px;
+	background-size: 300px;
+}
+.ordem2{
+
+}
+.ordem1 img{
+	padding-top: 70px;
+}
+#conteudo p{
+ font-size: 30px; 
+ padding-left: 30px;
+}
+.login{
+	background: #fff;
+	width: 400px;
+	height: 400px;
+	margin-top: 50px;
+	margin-left: 40px;
+	border-radius: 10px;
+	box-shadow:  2px gray;
+}
+input{
+	color: #F0F2F5;
+	height: 50px;
+	width:340px ;
+	margin: 10px;
+	margin-left: 15px;
+	font-size: 20px;
+	padding-left: 20px;
+	border: 1px solid #DDDFE2;
+	border-radius: 5px;
+}
+h3 {
+	color: white;
+	background:#2951E0 ;
+	width: 360px;
+	height: 35px;
+	margin-left: 15px;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 15px;
+	margin-bottom: 20px;
+}
+h3:hover {
+	background:#1877F2 ;
+}
+h3 a{
+	color: white;
+	padding-right: 50px;
+	font-size: 20px;
+  }
+h3 a:hover {
+	text-decoration: none;
+}
+
+h4 a:hover {
+	text-decoration:  ;
+}
+
+a{
+	text-decoration: none;
+	color:#1877F2 ;
+	font-size: 15px;
+    margin-left: 80px;
+}
+.pnl:hover {
+	text-decoration: underline;
+}
+a:hover{
+	text-decoration: none;
+}
+hr{
+	width: 340px;
+    margin-left: 30px;
+    margin-top:20px ;
+}
+a h4{
+	color: white;
+	background:#42B72A ;
+	height: 30px;
+	width: 150px;
+	margin-left: 100px;
+	padding-top: 15px;
+	padding-left: 30px;
+	border-radius: 6px;
+}
+.criarpagina p {
+	font-size: 15px;
+}
+.criarpagina a{
+	color: #000;
+
+}
+.criarpagina a:hover {
+	color: #000;
+  text-decoration: underline;
+}
